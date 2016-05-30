@@ -7,9 +7,11 @@ A utility image to run Ansible jobs based on Alpine Linux.
 
 The container contains the following:
 * `Ansible` (2.0+)
+* `OpenSSH` (OpenSSL 1.0+)
 
 ## Images
-* `latest`, `0.1`, `0.1.0` ([Dockerfile](./Dockerfile))
+* `latest`, `0.2`, `0.2.0` ([Dockerfile](./Dockerfile))
+* `0.1`, `0.1.0` ([Dockerfile](./Dockerfile))
 
 ## Usage
 Pull the docker image from Docker hub as:
